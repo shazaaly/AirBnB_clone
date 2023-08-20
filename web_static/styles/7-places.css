@@ -47,6 +47,8 @@ section.places article {
 article h2 {
 	font-size: 30px;
 	margin: 5px 5px;
+	min-width: 80%;
+
 }
 
 /*price_by_night styling */
@@ -72,7 +74,7 @@ article h2 {
 
 /* Informtion style */
 .information {
-	min-width: 22.8em;
+	min-width: 167%;
 	height: 150px;
 	width: 100px;
 	border-top: solid #DDDDDD 1px;
