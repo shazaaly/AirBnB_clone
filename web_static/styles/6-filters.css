@@ -39,6 +39,8 @@
 	font-weight: 600;
 	color: black;
 	line-height: 3px;
+	text-align: start;
+	margin-left: 16%;
 }
 
 .locations h4,
@@ -46,55 +48,39 @@
 	font-weight: 400;
 	font-size: 14px;
 	color: black;
+	text-align: start;
+	margin-left: 16%;
+}
+
+ul>h2 {
+	font-size: 16px;
+	color: black;
+
 }
 
 ul.popover {
-	display: none;
+	display: block;
 	background-color: white;
 	z-index: 2;
-	position: relative;
-
-
+	background-color: rgb(253, 252, 252);
 	border: solid 1px #DDDDDD;
 	border-radius: 4px;
 	margin-top: -1%;
-	min-width: fit-content;
+	text-align: start;
 }
 
-ul.inner {
-	position: absolute;
-	right: 70%;
-	min-width: 70%;
-	text-align: center;
-	z-index: 3;
-	background-color: white;
-}
 
 ul.popover li {
 	color: #FAFAFA;
 	font-size: 14px;
-	font-weight: normal;
 	width: 100%;
 	list-style: none;
 	color: black;
-	margin-left: -1.2rem;
-	padding: 0.6rem 0;
 }
 
-.locations:hover ul.locations-pop {
+.locations:hover ul.popover {
 	display: block;
 
-}
-
-h2 .ulcontainer {
-	position: relative;
-}
-
-/* Show inner list when hovering over h2 */
-/*The + selector is used to target the immediately
- following <ul> with the class .popover.inner.*/
-.locations h2:hover ul.popover.inner {
-	display: block;
 }
 
 .amenities:hover ul.amenities-pop {
@@ -116,13 +102,5 @@ ul.locations-pop {
 	}
 
 
-	ul.popover {
-
-		margin-top: -1.2rem;
-	}
-
-	ul.inner {
-		left: 70%;
-	}
 
 }
