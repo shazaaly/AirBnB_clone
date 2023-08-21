@@ -1,230 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Document</title>
-	<link rel="stylesheet" href="./styles/3-header.css">
-	<link rel="stylesheet" href="./styles/3-footer.css">
-	<link rel="stylesheet" href="./styles/4-common.css">
-	<link rel="stylesheet" href="./styles/6-filters.css">
-	<link rel="stylesheet" href="./styles/7-places.css">
-	<link rel="icon" type="image/png" href="./images/icon.png">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/4-common.css">
+	<link rel="stylesheet" href="styles/3-header.css">
+	<link rel="stylesheet" href="styles/3-footer.css">
+	<link rel="stylesheet" href="styles/6-filters.css">
+	<link rel="stylesheet" href="styles/8-places.css">
+	<link rel="icon" href="images/icon.png" type="image/png">
+	<title>AirBnb Clone</title>
 </head>
 
 <body>
-	<header></header>
-
+	<header>
+		<div class="logo">
+		</div>
+	</header>
 	<div class="container">
 		<section class="filters">
 			<div class="locations">
-
 				<h3>States</h3>
-				<h4>128 states allover the world!</h4>
-
-				<ul class="popover locations-pop">
+				<h4>California, New York...</h4>
+				<ul class="popover">
 					<li>
-						<h2 class="ulcontainer">California
-							<ul class="popover inner">
-								<li>Los Angeles</li>
-								<li>San Francisco</li>
-								<li>San Diego</li>
-								<li>Sacramento</li>
-							</ul>
-						</h2>
-					</li>
-
-
-					<li>
-						<h2 class="ulcontainer">Texas
-							<ul class="popover inner">
-								<li>Houston</li>
-								<li>Dallas</li>
-								<li>Austin</li>
-								<li>San Antonio
-								</li>
-							</ul>
-						</h2>
+						<h2>California:</h2>
+						<ul>
+							<li>San Francisco</li>
+							<li>Mountain View</li>
+						</ul>
 					</li>
 					<li>
-						<h2 class="ulcontainer">New York
-							<ul class="popover inner">
-								<li>Buffalo</li>
-								<li>Albany</li>
-								<li>Syracuse</li>
-							</ul>
-						</h2>
-					</li>
-					<li>
-						<h2 class="ulcontainer">Cairo
-							<ul class="popover inner">
-								<li>Gize</li>
-							</ul>
-						</h2>
+						<h2>New York:</h2>
+						<ul>
+							<li>Manhattan</li>
+							<li>Brooklyn</li>
+						</ul>
 					</li>
 				</ul>
 			</div>
-
-
 			<div class="amenities">
-
 				<h3>Amenities</h3>
-				<h4>
-					Best Comfortable facilities
-
-				</h4>
-				<ul class="popover amenities-pop">
-					<li>Air conditioning</li>
-					<li>Flat-screen TV</li>
-					<li>24-hour front desk </li>
-					<li>Valet parking </li>
-					<li>Fitness center</li>
-					<li>Pool </li>
+				<h4>Laundry, Internet...</h4>
+				<ul class="popover">
+					<li>Laundry</li>
+					<li>Internet</li>
+					<li>Television</li>
+					<li>Pool</li>
 				</ul>
-
 			</div>
-
-			<button>Search</button>
-
-
-
-
+			<button>
+				Search
+			</button>
 		</section>
-
-		<h1>Places</h1>
-
 		<section class="places">
+			<h1>Places</h1>
 			<article>
-				<h2>Charming Retreat</h2>
+				<h2>My home</h2>
 				<div class="price_by_night">
-					<span>$150</span>
+					<p>$80</p>
 				</div>
-
-
-
-
 				<div class="information">
 					<div class="max_guest">
-						<span>4 Guests 2 Adults</span>
-
+						<div class="guest_image"></div>
+						<p>2 Guests</p>
 					</div>
 					<div class="number_rooms">
-						<span>2 rooms garden</span>
-
+						<div class="bed_image"></div>
+						<p>1 Bedroom</p>
 					</div>
-
 					<div class="number_bathrooms">
-						<span>1 Bathroom with tub.</span>
-
+						<div class="bath_image"></div>
+						<p>1 Bathroom</p>
 					</div>
-
 				</div>
-
 				<div class="user">
-					Owner: Future Travel
-
+					<p><b>Owner: </b>Jon Snow</p>
 				</div>
-
-
 				<div class="description">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-
-
-
-
-			</article>
-
-			<article>
-				<h2>Charming Retreat</h2>
-				<div class="price_by_night">
-					<span>$250</span>
-				</div>
-
-				<div class="information">
-					<div class="max_guest">
-						<span>1 Guest 2 Adults</span>
-
-					</div>
-					<div class="number_rooms">
-						<span>2 rooms pool view</span>
-
-					</div>
-
-					<div class="number_bathrooms">
-						<span>2 Bathrooms</span>
-
-					</div>
-
-				</div>
-
-				<div class="user">
-					Owner: Future Travel
-
-				</div>
-
-
-				<div class="description">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-				</div>
-
-
-
-
 			</article>
 			<article>
-				<h2>Charming Retreat</h2>
+				<h2>Tiny house</h2>
 				<div class="price_by_night">
-					<span>$150</span>
+					<p>$65</p>
 				</div>
-
-
-
-
 				<div class="information">
 					<div class="max_guest">
-						<span>4 Guests 2 Adults 2 Children</span>
-
+						<div class="guest_image"></div>
+						<p>4 Guests</p>
 					</div>
 					<div class="number_rooms">
-						<span>2 rooms</span>
-
+						<div class="bed_image"></div>
+						<p>2 Bedroom</p>
 					</div>
-
 					<div class="number_bathrooms">
-						<span>1 Bathroom</span>
-
+						<div class="bath_image"></div>
+						<p>1 Bathroom</p>
 					</div>
-
 				</div>
-
 				<div class="user">
-					Owner: Future Travel
-
+					<p><b>Owner: </b>Daenerys Targaryen</p>
 				</div>
-
-
 				<div class="description">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-
 			</article>
-
+			<article>
+				<h2>A suite</h2>
+				<div class="price_by_night">
+					<p>$190</p>
+				</div>
+				<div class="information">
+					<div class="max_guest">
+						<div class="guest_image"></div>
+						<p>6 Guests</p>
+					</div>
+					<div class="number_rooms">
+						<div class="bed_image"></div>
+						<p>3 Bedroom</p>
+					</div>
+					<div class="number_bathrooms">
+						<div class="bath_image"></div>
+						<p>2 Bathroom</p>
+					</div>
+				</div>
+				<div class="user">
+					<p><b>Owner: </b>Azor Ahai</p>
+				</div>
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</article>
 		</section>
-
 	</div>
-
-	ANY CONTENT TST
-
-
-
-
-	<footer>Best School</footer>
-
+	<footer>
+		<p>
+			Holberton School
+		</p>
+	</footer>
 </body>
 
 </html>
